@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
 .inter-basic-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -14,6 +18,7 @@
     margin: 0 auto;
     margin-top: 20px;
     align-items: center;
+    margin-top: 30px;
   }
   .nav-links{
     display: flex;
@@ -32,7 +37,7 @@
   }
   .nav-link{
     text-decoration: none;
-    /* color: white; */
+    color: white; 
     
   }
 .color-primary{
@@ -48,8 +53,147 @@ nav > h3{
 }
 .nav-child1{
     border-radius: 20px;
-    /* 
-    
-     */
+  
+}
+.bg{
+  background-color:#111111;
+  /* background-image: url(./B10A2-versatile-ui/images/image\ 2.png); */
+  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);   */
+}
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.text {
+  max-width: 50%;
+}
 
+.text h1 {
+  font-size: 78px;
+  line-height: 1.2;
+  color: white;
+
+}
+.banner-container p{
+  color: white;
+  margin: 28px 0px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.banner-container span{
+  font-style: italic; 
+  font-family: 'Great Vibes', cursive;
+  font-weight: 300;
+  
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+button {
+  padding: 18px 40px;
+  border: none;
+  border-radius: 40px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.join-club {
+  background-color: #ff5733;
+  color: #fff;
+}
+
+.download-app {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.img-content {
+  position: relative;
+}
+
+.img-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-box {
+  position: absolute;
+  top: 130px;
+  height: 115px;
+  right: 10px;
+  left: 200px;
+  width: 200px;
+  padding: 18px;
+  border-radius: 10px;
+  text-align: left; 
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+
+}
+.info-box h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.info-box p {
+ margin-top: 5px;
+  color: white;
+}
+
+.tutorial {
+  position: absolute;
+  width: 206px;
+  height: 115px;
+  left: -80px;
+  top: 450px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  padding: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tutorial h1 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-top: 18px;
+
+}
+
+.tutorial p {
+ margin-top: 5px;
+  color: white;
+  text-align: left;
+  
+}
+.circle{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #ff5733;
+  border-radius: 50%;
+  
+
+  
 }
